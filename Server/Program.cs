@@ -3,7 +3,7 @@ using System.Text;
 using System.Net;
 using System.Net.Sockets;
 
-namespace SocketTcpServer
+namespace Server
 {
     class Program
     {
