@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1MmBJy0x5qaoUZ0q+AeNem9DFODqCa/VfJ28DFrHt8XkoZsGUZpWsdrbIDXa3g/lYWr4Rgvt71bdT4+hpqYqJA==",
+  "dgSpecHash": "Gp6I9qQ5LjkNrlWa5kqkCsR/bdBVb8NzfrlH/Q+sbqR62/lGRhmyJWYDHLSCjM32KqhyYpecTvEXt93RvMSD1w==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\Paul\\Electronic-school-system\\Server\\Server.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\student\\Documents\\GitHub\\Kostya\\Electronic-school-system\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\student\\.nuget\\packages\\materialdesigncolors\\2.0.1\\materialdesigncolors.2.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Paul\\Electronic-school-system\\Server\\Server.csproj": {}
+    "C:\\Users\\student\\Documents\\GitHub\\Kostya\\Electronic-school-system\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Paul\\Electronic-school-system\\Server\\Server.csproj": {
+    "C:\\Users\\student\\Documents\\GitHub\\Kostya\\Electronic-school-system\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Paul\\Electronic-school-system\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Documents\\GitHub\\Kostya\\Electronic-school-system\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\GitHub\\Paul\\Electronic-school-system\\Server\\Server.csproj",
+        "projectPath": "C:\\Users\\student\\Documents\\GitHub\\Kostya\\Electronic-school-system\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Paul\\Electronic-school-system\\Server\\obj\\",
+        "outputPath": "C:\\Users\\student\\Documents\\GitHub\\Kostya\\Electronic-school-system\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

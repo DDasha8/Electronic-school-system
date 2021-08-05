@@ -13,5 +13,19 @@
         <Label Content="Просмотр оценок" Margin="179,0,472,388"/>
         <Label Content="Загрузка дз" Margin="443,0,250,380"/>
         <Label Content="Просмотр дз" Margin="325,0,349,377" RenderTransformOrigin="0.405,0.485"/>
+        <TextBox x:Name="MessageField" Height="23" Margin="134,259,486,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="173" SpellCheck.IsEnabled="True" Background="#FFFF0909"/>
+        <Label Content="Ожидание подключения к серверу..." HorizontalAlignment="Left" Margin="82,213,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.131,0.6" Width="289">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.143"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="ConnectButton" Content="Connect" HorizontalAlignment="Left" Margin="104,299,0,0" VerticalAlignment="Top" Width="75" Click="ConnectButton_Click_1"/>
+        <Button x:Name="SendButton" Content="Send" HorizontalAlignment="Left" Margin="245,299,0,0" VerticalAlignment="Top" Width="75" Click="SendButton_Click"/>
+
     </Grid>
 </Window>
